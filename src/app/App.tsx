@@ -1,4 +1,6 @@
+import { AppRouter } from './router';
+
 function App() {
-  return <div>Basic template</div>;
+  return <AppRouter />;
 }
 export default App;

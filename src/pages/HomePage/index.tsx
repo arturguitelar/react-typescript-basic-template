@@ -5,7 +5,7 @@ function HomePage() {
   return (
     <div>
       <SharedComponent />
-      <p>Basic template</p>
+      <p>Home Page</p>
       <ParticularComponent />
     </div>
   );

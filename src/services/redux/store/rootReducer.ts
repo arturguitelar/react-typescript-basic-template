@@ -1,6 +1,6 @@
 import { combineReducers } from '@reduxjs/toolkit';
 
-import exampleData from 'services/redux/slices/exampleData';
+import exampleData from '../slices/exampleData';
 
 const rootReducer = combineReducers({
   exampleData,

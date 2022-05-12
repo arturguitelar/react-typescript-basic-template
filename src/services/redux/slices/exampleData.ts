@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { RootState } from 'services/redux/store';
+import { RootState } from '../store';
 
 interface InitialState {
   examples: string[];

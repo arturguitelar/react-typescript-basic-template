@@ -1,5 +1,5 @@
-import HomePage from 'pages/HomePage';
-import { Status404Page } from 'pages/Status404Page';
+import HomePage from '../../pages/HomePage';
+import { Status404Page } from '../../pages/Status404Page';
 import { Route, Routes } from 'react-router-dom';
 
 import { appPaths } from './appPaths';

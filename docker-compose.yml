@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  web-prod:
+    container_name: aurora-site-prod
+    build: .
+    ports:
+      - '1337:80'

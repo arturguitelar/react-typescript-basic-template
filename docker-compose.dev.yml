@@ -1,0 +1,14 @@
+# Use command: ker-compose -f docker-compose.dev.yml up -d
+version: '3'
+services:
+  client:
+    stdin_open: true
+    container_name: aurora-site-dev
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - '3000:3000'
+    volumes:
+      - '/app/node_modules'
+      - './:/app'
